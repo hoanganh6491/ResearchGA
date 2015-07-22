@@ -1,0 +1,6 @@
+framework module Pods_ResearchGA {
+  umbrella header "Pods-ResearchGA-umbrella.h"
+
+  export *
+  module * { export * }
+}
