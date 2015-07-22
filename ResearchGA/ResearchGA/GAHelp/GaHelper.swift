@@ -5,7 +5,7 @@
 import Foundation
 
 class GaHelper: NSObject {
-    var tracker = GAI.sharedInstance().trackerWithTrackingId("UA-65439603-1")
+    var tracker = GAI.sharedInstance().trackerWithTrackingId("UA-65438243-1")
     class var sharedInstance: GaHelper {
         struct Static {
             static let instance: GaHelper = GaHelper()
