@@ -34,7 +34,7 @@ class MasterViewController: UITableViewController {
             action: GaCommonAction.showView.rawValue,
             label: GaCommonLabel.masterViewLabel.rawValue)
         
-        //TODO: User as new-style
+        //TODO: Use as new-style
         var tracker = GAI.sharedInstance().defaultTracker
         tracker.set(kGAIScreenName, value: GaCommon.masterView.rawValue)
         var builder = GAIDictionaryBuilder.createScreenView()
